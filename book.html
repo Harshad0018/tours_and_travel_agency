@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harsh Tours and Travel</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>HARSH</span>Tours & Travels</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="book.html">book</a>
+            <a href="index.html">packages</a>
+            <a href="cancel.html">Cancel Booking</a>
+            <a href="login.html">Back to login</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Explore here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div id="bg"></div>
+    <section class="book" id="book" style="margin-top: 10rem;">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/book.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Destination</h3>
+                    <input type="text" placeholder="place name" id="Dest">
+                </div>
+                <div class="inputBox">
+                    <h3>Total seats</h3>
+                    <input type=int placeholder="number of guests" id="Seat">
+                </div>
+                <div class="inputBox" id="Datearrival">
+                    <h3>arrivals</h3>
+                    <input type="date" class="arrivalclass" id="arrivalclass" required>
+                </div>
+                <div class="inputBox" id="DateLeav">
+                    <h3>leaving</h3>
+                    <input type="date" class="leaveClass" id="leavclass" required>
+                </div>
+                <button class="btn" type="submit"><a href="index.html">back</a></button>
+                <input type="submit" class="btn" onclick="validateBooking()" value="book now">
+                <button class="btn" type="submit"><a href="cancel.html">cancel booking</a></button>
+            </form>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</body>
+</html>

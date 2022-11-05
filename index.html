@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title: Tour and Travel Agency</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>HARSH</span>Tours & Travels</a>
+        <nav class="navbar" >
+            <a href="#home">home</a>
+            <a href="book.html">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="cancel.html">Cancel Booking</a>
+            <a href="login.html">Back to login</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Explore here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container" >
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Harshad Pawar</h3>
+        </form>
+    </div>
+    <section class="home" id="home" style="margin-top: 1rem;">
+        <h1 class="heading" >
+            <span>H</span>
+            <span>o</span>
+            <span>m</span>
+            <span>e</span>
+        </h1>
+        <br>
+        <br>
+        <div class="content">
+            <h3>Travel, Because Money Returns, TIME Dosen't</h3>
+            <br>
+            <p>Travel with Harsh Tours &Travels </p>
+        </div>
+        
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+        <div class="controls">
+        </div>
+    </section>
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Marine Drive, Gateway of India, Siddhi Vinayak Temple, Kamheri Caves</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 4,999.00 <span>9,999.00</span> </div>
+                    <!-- <a href="#book" class="btn">book now</a> -->
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Kolkata </h3>
+                    <p>Welcome to Kolkata!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 3,999.00 <span>8,999.00</span> </div>
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Hydrabad </h3>
+                    <p>Welcome to Hydrabad!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 4,999.00 <span>8,9999.00</span> </div>
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Kashmir </h3>
+                    <p>Welcome to Kashmir!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 4,999.00 <span>9,9999.00</span> </div>
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Pune </h3>
+                    <p>Welcome to Pune!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">3,999.00 <span>8,999.00</span> </div>
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Banglore </h3>
+                    <p>Welcome to Banglore!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 7,499.00 <span>$9,999.00</span> </div>
+                    <button class="btn" type="submit"><a href="book.html" onclick="validate()">Book Now</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Here you can get best Hotel's with afortable Price Range </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>All catagory of Food and Drinks </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Safty Guide Facility Available</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-search"></i>
+                <h3>around the world</h3>
+                <p>We Provide Services all around World</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Fastest and Comfortable Travel Facility</p>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.jpeg" alt="">
+                        <h3>Harshad</h3>
+                        <p>Harsh Tours and Travel:Thank you for wonderful trip, The best travel agency in
+                            India.Accomodation simply superb. and Great Deals for Mumbai and Delhi </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.jpeg" alt="">
+                        <h3>Samarth</h3>
+                        <p>Guids and Drivers are very professionaland Friendly. I higly recommend it</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.jpeg" alt="">
+                        <h3>Aniket</h3>
+                        <p>One of the best tourist agency. Travel Comfort, On time Arrival.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.jpeg" alt="">
+                        <h3>Pravin</h3>
+                        <p>The Management is very Cooperative providind best service to its clients</p>
+
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/contact.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="icons">
+               <i class="fas fa-user" id="login-btn"><h1> CONTACT US : 8554818714</h1></i>
+                   
+                    
+                </div>
+                
+                <div class="inputBox">
+                    <input type="text" placeholder="name" id="Name" >
+                    <input type="email" placeholder="email" id="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Contact number" id="Contact" >
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea >
+                <input type="submit" class="btn" onclick="sendmsg()" value="Send Message">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Travel is the only thing you buy,<br>that makes you rich....</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Pune</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Melbourn</a>
+                <a href="#">Maldives</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span> Harshad Pawar </span> </h1>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
